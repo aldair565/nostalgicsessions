@@ -6,6 +6,7 @@ body {
     text-align: center;
     color: white;
     margin: 0;
+    height: 100vh;
 }
 
 .container {
@@ -14,7 +15,7 @@ body {
     display: block;
     min-width: 360px;
     max-width: 720px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .title {
@@ -79,6 +80,15 @@ p {
 }
 
 .artist-profile:hover {
+    filter: brightness(100%);
+}
+
+.instagram {
+    width: 100px;
+    filter: brightness(70%);
+}
+
+.instagram:hover {
     filter: brightness(100%);
 }
 
