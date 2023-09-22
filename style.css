@@ -10,7 +10,7 @@ body {
 
 .container {
     background: rgb(101, 25, 113);
-    background: linear-gradient(180deg, rgba(101,25,113,1) 0%, rgba(0,0,0,1) 30%);
+    background: linear-gradient(180deg, rgba(101,25,113,1) 0%, rgba(0,0,0,1) 25%);
     display: block;
     min-width: 360px;
     max-width: 720px;
@@ -53,6 +53,33 @@ h3 {
 p {
     font-size: 1em;
     padding: 1em;
+}
+
+.episodes>img {
+    width: 75%;
+}
+
+.about>img {
+    width: 75%;
+}
+
+.about>p {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.artists>iframe {
+    width: 50%;
+}
+
+.artist-profile {
+    width: 50%;
+    -webkit-filter: brightness(70%);
+    border: 1px solid white;
+}
+
+.artist-profile:hover {
+    -webkit-filter: brightness(100%);
 }
 
 footer {
