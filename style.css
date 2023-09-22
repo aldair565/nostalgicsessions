@@ -74,12 +74,12 @@ p {
 
 .artist-profile {
     width: 50%;
-    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
     border: 1px solid white;
 }
 
 .artist-profile:hover {
-    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
 }
 
 footer {
