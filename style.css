@@ -38,7 +38,21 @@ body {
 }
 
 .nostalgic-title>img {
-    width: 60%;
+    width: 70%;
+}
+
+h2 {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+    padding: 1em;
 }
 
 footer {
