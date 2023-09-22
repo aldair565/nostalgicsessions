@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 
 body {
-    background: rgb(147,44,164);
-    background: linear-gradient(180deg, rgba(147,44,164,1) 0%, rgba(0,0,0,1) 30%);
+    background: repeat url(/img/bg-2PEOPLE.png);
     font-family: 'Rajdhani', sans-serif;
     text-align: center;
     color: white;
@@ -10,17 +9,37 @@ body {
 }
 
 .container {
+    background: rgb(101, 25, 113);
+    background: linear-gradient(180deg, rgba(101,25,113,1) 0%, rgba(0,0,0,1) 30%);
     display: block;
     min-width: 360px;
     max-width: 720px;
     margin: 0 auto;
-    border: 2px solid white;
 }
 
-/* .title {
-    width: 600px;
-    height: 400px;
-} */
+.title {
+    position: relative;
+}
+
+.background {
+    position: relative;
+    width: 100%;
+}
+
+.nostalgic-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nostalgic-title>img {
+    width: 60%;
+}
 
 footer {
     font-style: italic;
